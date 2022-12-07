@@ -66,6 +66,11 @@
   margin: 0.4rem 0 1rem 0;
 }
 
+.email__input:focus,
+.password__input:focus {
+  background-color: #eedcff;
+}
+
 .checkbox__container {
   display: flex;
   justify-content: space-between;
@@ -91,11 +96,11 @@
 .checkbox__container a {
   font-size: 0.9rem;
   text-decoration: none;
-  color: #9A48E6;
+  color: #9a48e6;
   transition: 400ms all ease;
 }
 
-.checkbox__container a:hover{
+.checkbox__container a:hover {
   color: #6c4cbc;
 }
 
@@ -112,12 +117,12 @@
   font-weight: 400;
 }
 
-.sign-up a{
-  color: #9C4BE6;
+.sign-up a {
+  color: #9c4be6;
   transition: 400ms all ease;
 }
 
-.sign-up a:hover{
+.sign-up a:hover {
   color: #6c4cbc;
 }
 

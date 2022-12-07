@@ -1,4 +1,4 @@
-import Loginpage from "./Components/Loginpage/Loginpage";
+import Loginpage from "./Pages/Loginpage/Loginpage";
 
 function App() {
   return (
