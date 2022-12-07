@@ -1,0 +1,41 @@
+.right-side{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f3f5f9;
+}
+
+.container {
+  position: relative;
+}
+
+.container__cercle--colored {
+  width: 200px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background-color: blueviolet;
+}
+
+.container__cercle--blured {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 250px;
+  height: 120px;
+  z-index: 2;
+  margin-top: 4rem;
+  background: #fff;
+  filter: blur(1.5rem);
+  border-radius: 0 0 150px 150px;
+  transform: translate(-50%, -50%);
+}
+
+
+/* =============== MEDIA QUERIES (SMALL DEVICES) =============== */
+
+@media screen and (max-width: 657px) {
+  .right-side {
+    display: none;
+  }
+}

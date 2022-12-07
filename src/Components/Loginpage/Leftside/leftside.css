@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  outline: none;
+  text-decoration: none;
+}
+
+.left-side {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.left-side button {
+  width: 100%;
+  height: 2.5rem;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.logo {
+  position: absolute;
+  top: 3%;
+  left: 3%;
+  font-weight: 700;
+}
+
+.form__container h1 {
+  font-weight: 600;
+  color: #141721;
+}
+
+.form__container h3 {
+  color: #9ca0a6;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 1rem 0;
+}
+
+.form__container form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.form__container label {
+  color: #141721;
+  font-weight: 500;
+}
+
+.email__input,
+.password__input {
+  width: 100%;
+  outline: none;
+  border: 2px solid #9ca0a6;
+  padding-left: 0.5rem;
+  border-radius: 5px;
+  height: 2.5rem;
+  margin: 0.4rem 0 1rem 0;
+}
+
+.checkbox__container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.checkbox-items {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.checkbox-items label {
+  font-size: 0.9rem;
+}
+
+.checkbox {
+  width: 15px;
+  aspect-ratio: 1/1;
+}
+
+.checkbox__container a {
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: #9A48E6;
+  transition: 400ms all ease;
+}
+
+.checkbox__container a:hover{
+  color: #6c4cbc;
+}
+
+.sign-up {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.sign-up h3 {
+  color: #9ca0a6;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.sign-up a{
+  color: #9C4BE6;
+  transition: 400ms all ease;
+}
+
+.sign-up a:hover{
+  color: #6c4cbc;
+}
+
+.signin__button {
+  background-color: #7c57da;
+  color: white;
+  border: none;
+  transition: 400ms all ease;
+}
+
+.signin__button:hover {
+  background-color: #6c4cbc;
+}
+
+.signin-google__button {
+  background-color: white;
+  border: 2px solid #9ca0a6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+  transition: 400ms all ease;
+}
+
+.signin-google__button:hover {
+  background-color: #f1f1f1;
+}
+
+.google-icon {
+  width: 30px;
+  height: 30px;
+}
+
+footer {
+  font-size: 0.8rem;
+  position: absolute;
+  bottom: 2%;
+  left: 2%;
+  color: #9ca0a6;
+}
+
+/* =============== MEDIA QUERIES (SMALL DEVICES) =============== */
+
+@media screen and (max-width: 657px) {
+  .left-side {
+    width: 100%;
+  }
+}
